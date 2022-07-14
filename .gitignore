@@ -1,4 +1,3 @@
-/jwt-login
-    /bin
-    /obj
+/jwt-login/bin
+/jwt-login/obj
 .vs
