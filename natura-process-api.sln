@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "natura-process-api", "natura-process-api\natura-process-api.csproj", "{37A46AFD-C24A-42F7-A89B-D5EEE4A217FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37A46AFD-C24A-42F7-A89B-D5EEE4A217FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A46AFD-C24A-42F7-A89B-D5EEE4A217FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A46AFD-C24A-42F7-A89B-D5EEE4A217FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A46AFD-C24A-42F7-A89B-D5EEE4A217FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2AB6622-7E54-4C5B-8A7F-1D803BB054ED}
+	EndGlobalSection
+EndGlobal
