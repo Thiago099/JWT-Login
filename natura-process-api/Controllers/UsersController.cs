@@ -23,12 +23,8 @@ namespace natura_process_api.Controllers
             _context = context;
             _logger = logger;
         }
-
-
-
-        // GET: Users
-        [HttpGet(Name = "GetUser")]
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<IActionResult> Get()
         {
             return _context.User != null ?
                         Ok(await _context.User.ToListAsync()) :
