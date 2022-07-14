@@ -30,9 +30,9 @@ namespace natura_process_api.Controllers
             var jwt = _configuration.GetSection("Jwt").Get<Jwt>();
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames. Sub, jwt. Subject),
+                new Claim(JwtRegisteredClaimNames.Sub, jwt. Subject),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid. NewGuid().ToString()),
-                new Claim (JwtRegisteredClaimNames. Iat, DateTime. UtcNow.ToString()),
+                new Claim (JwtRegisteredClaimNames.Iat, DateTime. UtcNow.ToString()),
                 new Claim("Id", user.Id.ToString()),
                 new Claim("UserName", user.UserName), new Claim ("Password", user. Password)
             };
