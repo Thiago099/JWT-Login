@@ -11,7 +11,7 @@ using natura_process_api.Data;
 namespace natura_process_api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [Authorize]
     public class UsersController : ControllerBase
     {
