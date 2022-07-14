@@ -17,7 +17,7 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Natura", Version = "V1" });
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "JWT Login", Version = "V1" });
     c.AddSecurityDefinition("Barer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
 
