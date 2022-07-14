@@ -26,8 +26,7 @@ namespace natura_process_api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(User user)
         {
-            var userData = await GetUser(user.UserName, user.Password);
-            if(userData == null) return Unauthorized("Invalid username or password.");
+            if(!await AuthenticateUser(user.UserName, user.Password)) return Unauthorized("Invalid username or password.");
             var jwt = _configuration.GetSection("Jwt").Get<Jwt>();
             var claims = new[]
             {
@@ -44,9 +43,9 @@ namespace natura_process_api.Controllers
             return Ok("Bearer "+new JwtSecurityTokenHandler().WriteToken(token));
         }
 
-        private async Task<User> GetUser(string username, string passowrd)
+        private async Task<bool> AuthenticateUser(string username, string passowrd)
         {
-            return await _context.User.FirstOrDefaultAsync(user => user.UserName == username && user.Password == passowrd);
+            return (await _context.User.FirstOrDefaultAsync(user => user.UserName == username && user.Password == passowrd)) != null;
         }
     }
 }
