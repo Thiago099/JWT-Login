@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace natura_process_api.Models
+namespace JWTLogin.Models
 {
     [Table("user")]
     public class User

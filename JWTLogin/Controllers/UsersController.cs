@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using natura_process_api.Data;
+using JWTLogin.Data;
 
-namespace natura_process_api.Controllers
+namespace JWTLogin.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

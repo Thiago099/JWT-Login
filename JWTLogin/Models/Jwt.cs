@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace natura_process_api.Models
+namespace JWTLogin.Models
 {
     public class Jwt
     {

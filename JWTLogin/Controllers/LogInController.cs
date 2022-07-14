@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using natura_process_api.Models;
-using natura_process_api.Data;
+using JWTLogin.Models;
+using JWTLogin.Data;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace natura_process_api.Controllers
+namespace JWTLogin.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

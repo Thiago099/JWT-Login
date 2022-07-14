@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "natura_process_api": {
+    "JWTLogin": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

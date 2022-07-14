@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwt-login", "jwt-login\jwt-login.csproj", "{37A46AFD-C24A-42F7-A89B-D5EEE4A217FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTLogin", "JWTLogin\JWTLogin.csproj", "{37A46AFD-C24A-42F7-A89B-D5EEE4A217FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

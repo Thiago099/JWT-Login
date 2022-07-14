@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using natura_process_api.Data;
+using JWTLogin.Data;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
